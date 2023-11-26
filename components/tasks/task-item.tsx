@@ -4,6 +4,7 @@ import { Icon } from "../icon"
 import React from "react"
 import { Checkbox } from "../checkbox"
 import { colors } from "../../assets/theme/color"
+import { ProgressBar } from "../progress-bar"
 
 export const TaskItem = ({ task }) => {
 
@@ -21,6 +22,7 @@ export const TaskItem = ({ task }) => {
         </View>
         
       </View>
+      <ProgressBar data={[true, true, true, checked, false, false, false]}/>
     </View>
   )
 }

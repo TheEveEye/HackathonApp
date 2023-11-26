@@ -7,8 +7,15 @@ export const styles = StyleSheet.create({
   container: {
     width: '100%',
     height: '100%',
-    backgroundColor: '#101010',
+    backgroundColor: colors.primaryDark,
     paddingHorizontal: 20,
+  },
+  screenTitle: {
+    fontSize: 40,
+    fontWeight: "500",
+    color: "#FFFFFF",
+    textShadowColor: "#000000"
+
   },
   title: {
     fontSize: 30,
@@ -16,12 +23,14 @@ export const styles = StyleSheet.create({
     textAlign: 'center',
     marginVertical: 10,
     color: '#fff',
+    
   },
   text: {
     fontSize: 20,
     textAlignVertical: 'center',
     fontWeight: 'bold',
     color: '#fff',
+    marginBottom: 5,
   },
   titleRow: {
     flexDirection: 'row',

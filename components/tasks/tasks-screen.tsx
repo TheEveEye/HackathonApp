@@ -36,7 +36,7 @@ export const TasksScreen = () => {
   return (
     <View style={{...styles["container"]}} >
       <View style={styles.titleRow}>
-        <Text style={styles["title"]}>TASKS</Text>
+        <Text style={styles.title}>TASKS</Text>
       </View>
       <ScrollView scrollEnabled={true} contentContainerStyle={{gap: 10, paddingBottom: 100}}>
         {
